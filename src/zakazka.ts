@@ -1,4 +1,4 @@
-type Zakazka = { 
+export type Zakazka = { 
   id: number; 
   nazev?: string | null; 
   cislo?: string | null; 

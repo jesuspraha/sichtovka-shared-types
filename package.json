@@ -11,5 +11,8 @@
     "dist"
   ],
   "license": "UNLICENSED",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }

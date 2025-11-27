@@ -1,4 +1,4 @@
-type Sichta = {
+export type Sichta = {
   id: number;
   zacatek: string;
   konec?: string | null;

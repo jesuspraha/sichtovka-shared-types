@@ -1,4 +1,4 @@
-type Zakaznik = {
+export type Zakaznik = {
   id: number;
   nazev: string;
   ico?: string | null;

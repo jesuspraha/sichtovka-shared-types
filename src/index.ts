@@ -1,4 +1,4 @@
 
-export * from "./sichta";
-export * from "./zakazka";
-export * from "./zakaznik";
+export * from "./Sichta";
+export * from "./Zakazka";
+export * from "./Zakaznik";
