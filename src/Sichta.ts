@@ -1,5 +1,6 @@
 export type Sichta = {
   id: number;
+  typ: SichtaTyp;
   zacatek: string;
   konec?: string | null;
   prace_zacatek ?: string | null;
@@ -22,3 +23,10 @@ export type Sichta = {
   user?: string | null;      
   drive_file_url?: string[] | null;
 };
+
+export enum SichtaTyp {
+    OSTATNI = 0,
+    SERVIS = 1,
+    ZAKAZKA = 2,
+    REZIE = 3
+}
