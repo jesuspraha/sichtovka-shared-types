@@ -16,6 +16,8 @@ export type Sichta = {
   misto?: string | null;
   zakaznik_id?: number | null;
   zakaznik?: string | null;
+  misto_text?: string | null;
+  zakaznik_text?: string | null;
   vozidlo_id?: number | null;
   vozidlo?: string | null;
   adresa_text?: string | null;
