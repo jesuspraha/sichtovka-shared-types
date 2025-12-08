@@ -1,12 +1,13 @@
-export type Zakazka = { 
-  id: number; 
-  nazev?: string | null; 
-  cislo?: string | null; 
+export type Zakazka = {
+  id: number;
+  nazev?: string | null;
+  cislo?: string | null;
   misto_id?: number | null;
   zakaznik_id?: number | null;
   stav?: number | null;           // ← INT
   adresa_text?: string | null;
   zakaznik?: string | null;
+  zakaznik_text?: string | null;
 
   deleted?: boolean | null;
   naklady?: number | null;
@@ -18,7 +19,7 @@ export type Zakazka = {
   provize?: number | null;
   provizelast?: string | null;
   archiv?: boolean | null;
-};  
+};
 
 export enum ZakazkaStav {
   OTEVRENA = 0,

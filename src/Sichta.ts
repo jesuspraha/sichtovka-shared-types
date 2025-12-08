@@ -3,7 +3,7 @@ export type Sichta = {
   typ: SichtaTyp;
   zacatek: string;
   konec?: string | null;
-  prace_zacatek ?: string | null;
+  prace_zacatek?: string | null;
   prace_konec?: string | null;
   delka_min?: number | null;
   pauza_min?: number | null;
@@ -21,14 +21,16 @@ export type Sichta = {
   vozidlo_id?: number | null;
   vozidlo?: string | null;
   adresa_text?: string | null;
-  user_id?: number | null;   
-  user?: string | null;      
+  user_id?: number | null;
+  user?: string | null;
   drive_file_url?: string[] | null;
+  lat?: number | null;
+  lon?: number | null;
 };
 
 export enum SichtaTyp {
-    OSTATNI = 0,
-    SERVIS = 1,
-    ZAKAZKA = 2,
-    REZIE = 3
+  OSTATNI = 0,
+  SERVIS = 1,
+  ZAKAZKA = 2,
+  REZIE = 3
 }
