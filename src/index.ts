@@ -5,3 +5,6 @@ export * from "./Misto";
 export * from "./User";
 export * from "./Vozidlo";
 export * from "./search";
+
+export * from './components/GlobalSearchInput';
+export * from './components/GlobalSearchResults';
