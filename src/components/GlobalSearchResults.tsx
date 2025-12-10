@@ -217,7 +217,7 @@ export function GlobalSearchResults({
                                             <Link to={linkBuilder('place', p.id)}>{p.nazev}</Link>
                                         </td>
                                         <td style={thtd}>{p.adresa_text || ''}</td>
-                                        <td style={thtd}>{(p as any).zakaznik_text || ''}</td>
+                                        <td style={thtd}>{p.zakaznik_text || ''}</td>
                                         <td style={thtd}>
                                             <Link to={linkBuilder('place', p.id)} style={btnStyle}>
                                                 Detail
@@ -271,7 +271,7 @@ export function GlobalSearchResults({
                                         </td>
                                         <td style={thtd}>{o.nazev || '—'}</td>
                                         <td style={thtd}>{o.zakaznik_text || ''}</td>
-                                        <td style={thtd}>{(o as any).status || ''}</td>
+                                        <td style={thtd}>{o.stav}</td>
                                         <td style={thtd}>
                                             <Link to={linkBuilder('zakazka', o.id)} style={btnStyle}>
                                                 Detail
@@ -442,7 +442,7 @@ export function GlobalSearchResults({
                                             <Link to={linkBuilder('place', p.id)}>{p.nazev}</Link>
                                         </td>
                                         <td style={thtd}>{p.adresa_text || ''}</td>
-                                        <td style={thtd}>{(p as any).zakaznik_text || ''}</td>
+                                        <td style={thtd}>{p.zakaznik_text || ''}</td>
                                         <td style={thtd}>
                                             <Link to={linkBuilder('place', p.id)} style={btnStyle}>
                                                 Detail
@@ -487,7 +487,7 @@ export function GlobalSearchResults({
                                         </td>
                                         <td style={thtd}>{o.nazev || '—'}</td>
                                         <td style={thtd}>{o.zakaznik_text || ''}</td>
-                                        <td style={thtd}>{(o as any).status || ''}</td>
+                                        <td style={thtd}>{o.stav}</td>
                                         <td style={thtd}>
                                             <Link to={linkBuilder('zakazka', o.id)} style={btnStyle}>
                                                 Detail
