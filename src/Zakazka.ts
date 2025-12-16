@@ -19,6 +19,7 @@ export type Zakazka = {
   provize?: number | null;
   provizelast?: string | null;
   archiv?: boolean | null;
+  drive_file_url?: string[] | null;
 };
 
 export enum ZakazkaStav {

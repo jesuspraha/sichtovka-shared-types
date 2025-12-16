@@ -12,6 +12,7 @@ export type Sichta = {
   km?: number | null;
   zakazka_id?: number | null;
   zakazka?: string | null;
+  zakazka_stav?: number | null;
   misto_id?: number | null;
   misto?: string | null;
   zakaznik_id?: number | null;
