@@ -19,6 +19,7 @@ export type Zakazka = {
   provize?: number | null;
   provizelast?: string | null;
   archiv?: boolean | null;
+  datum_zacatku?: string | null;
   drive_file_url?: string[] | null;
 };
 
