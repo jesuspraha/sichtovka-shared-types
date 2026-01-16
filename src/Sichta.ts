@@ -8,6 +8,8 @@ export type Sichta = {
   delka_min?: number | null;
   pauza_min?: number | null;
   fakthod?: number | null;
+  cena_dopravy?: number | null;
+  cenakm?: number | null;
   popis?: string | null;
   material?: string | null;
   km?: number | null;
