@@ -7,6 +7,7 @@ export type Sichta = {
   prace_konec?: string | null;
   delka_min?: number | null;
   pauza_min?: number | null;
+  fakthod?: number | null;
   popis?: string | null;
   material?: string | null;
   km?: number | null;
