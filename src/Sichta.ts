@@ -12,6 +12,7 @@ export type Sichta = {
   cenakm?: number | null;
   popis?: string | null;
   material?: string | null;
+  // cena_dopravy removed (duplicate)
   km?: number | null;
   zakazka_id?: number | null;
   zakazka?: string | null;
@@ -27,6 +28,7 @@ export type Sichta = {
   adresa_text?: string | null;
   user_id?: number | null;
   user?: string | null;
+  sazbah?: number | null;
   drive_file_url?: string[] | null;
   lat?: number | null;
   lon?: number | null;
