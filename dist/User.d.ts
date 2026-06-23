@@ -1,0 +1,18 @@
+export type UserRole = "user" | "accountant" | "manager" | "admin";
+export type User = {
+    id: number;
+    username: string;
+    full_name?: string | null;
+    is_active: boolean;
+    email?: string | null;
+    created_at?: string | null;
+    updated_at?: string | null;
+    sazbah?: number | null;
+    sazbakm?: number | null;
+    procentomat?: number | null;
+    nakladyh?: number | null;
+    procentozisk?: number | null;
+    deleted: boolean;
+    vozidla_id?: number | null;
+    role: UserRole;
+};
